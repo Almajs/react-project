@@ -1,14 +1,10 @@
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.navigation-items {
+/* .navigation-items {
   list-style-type: none;
   display: flex;
-  margin: 0;
-  padding: 0 0 20px;
+  justify-content: center;
+} */
+
+footer {
+  padding-top: 30px;
+  text-align: center;
 }

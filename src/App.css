@@ -3,20 +3,12 @@
   font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 0;
-  margin: 0;
+  padding-top: 20px;
 }
-
-li {
-  padding-left: 2em;
-  padding: 5px;
-  text-indent: -2em;
-}
-
-.cities {
+ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
 }
