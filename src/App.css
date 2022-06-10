@@ -1,14 +1,11 @@
 .Weather {
+  padding-top: 30px;
   text-align: center;
   font-size: large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-top: 20px;
 }
-ul {
+.form-list {
   list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0;
-  padding: 0;
+  padding-top: 20px;
 }

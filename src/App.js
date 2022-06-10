@@ -34,7 +34,11 @@ export default function App() {
   let form = (
     <form onSubmit={handleSubmit}>
       <input type="search" placeholder="Enter a city" onChange={updateCity} />
-      <input type="submit" value="Search" className="btn btn-primary" />
+      <input
+        type="submit"
+        value="Search"
+        className="btn btn-primary border-round m-2"
+      />
     </form>
   );
 
@@ -42,7 +46,7 @@ export default function App() {
     return (
       <div className="Weather">
         {form}
-        <ul className="Weather">
+        <ul className="form-list">
           <li>
             Temperature:
             {Math.round(weather.temperature)}°C

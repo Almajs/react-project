@@ -1,10 +1,16 @@
-/* .navigation-items {
+.navigation-items {
   list-style-type: none;
+  padding-top: 20px;
+  margin: 20px;
   display: flex;
-  justify-content: center;
-} */
+  justify-content: space-around;
+}
 
 footer {
-  padding-top: 30px;
+  padding-top: 10px;
+  margin: 10px;
   text-align: center;
+  font-size: 0, 5rem;
+  font-weight: 400;
+  opacity: 0.3em;
 }
