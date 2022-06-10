@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 
@@ -33,7 +34,7 @@ export default function App() {
   let form = (
     <form onSubmit={handleSubmit}>
       <input type="search" placeholder="Enter a city" onChange={updateCity} />
-      <input type="submit" value="Search" />
+      <input type="submit" value="Search" className="btn btn-primary" />
     </form>
   );
 

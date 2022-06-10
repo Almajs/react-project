@@ -13,6 +13,10 @@ li {
   text-indent: -2em;
 }
 
-.Submit {
-  color: red;
+.cities {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
