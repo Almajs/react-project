@@ -21,7 +21,7 @@ export default function App() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let apiKey = "ac4556f22149980b73aed3e08c34243c";
+    let apiKey = process.env.REACT_APP_TOKEN_OWM;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(showWeather);
   }

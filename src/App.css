@@ -6,3 +6,13 @@
   padding: 0;
   margin: 0;
 }
+
+li {
+  padding-left: 2em;
+  padding: 5px;
+  text-indent: -2em;
+}
+
+.Submit {
+  color: red;
+}
