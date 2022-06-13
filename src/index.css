@@ -1,9 +1,9 @@
 .navigation-items {
   list-style-type: none;
   padding-top: 20px;
-  margin: 20px;
+  margin: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 footer {
